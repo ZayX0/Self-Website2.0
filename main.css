@@ -43,7 +43,7 @@ p {
 .first-item {
   background-color: black;
   color: white;
-  width: 155px;
+  width: 148px;
   padding: 5px 20px 5px 0;
   box-shadow: 5px 5px 5px white, 2px -3px 5px white;
   border-bottom: 1px solid white;
@@ -74,6 +74,8 @@ p {
 }
 
 .text-container1 {
+  background-color: rgba(70, 72, 82, 0.8);
+  border-radius: 3%;
   position: absolute;
   display: inline-block;
   color: white;
