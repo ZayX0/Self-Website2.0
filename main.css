@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 4em;
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.4em;
+}
+
+.site-navbar {
+  position: absolute;
+  z-index: 10;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 3%;
+  text-align: right;
+}
+
+.site-navbar li {
+  padding-bottom: 10px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.2em
+}
+
+.something {
+  padding: 5px 20px 5px 0;
+  background-color: white;
+  width: 180px;
+  color: black;
+  box-shadow: none;
+}
+
+.site-navbar a {
+  text-decoration: none;
+}
+
+.first-item {
+  background-color: black;
+  color: white;
+  width: 155px;
+  padding: 5px 20px 5px 0;
+  box-shadow: 5px 5px 5px white, 2px -3px 5px white;
+  border-bottom: 1px solid white;
+}
+
+.second-item {
+  background-color: black;
+  color: white;
+  width: 130px;
+  padding: 5px 20px 5px 0;
+  box-shadow: 5px 5px 5px white;
+  border-bottom: 1px solid white;
+}
+
+.third-item {
+  background-color: black;
+  color: white;
+  width: 110px;
+  padding: 5px 20px 5px 0;
+  box-shadow: 5px 5px 5px white;
+}
+
+.container {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: rgba(70, 72, 82, 0.5);
+}
+
+.text-container1 {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  left: 55%;
+  top: 15%;
+  width: 30%;
+}
+
+.work-companies {
+  position: absolute;
+  display: inline-block;
+  background-color: rgba(70, 72, 82, 0.4);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  left: 55%;
+  top: 50%;
+  width: 30%;
+}
+
+.companies-table td {
+  width: 100px;
+  padding-left: 60px;
+}
+
+.companies-table img {
+  width: 100%;
+}
+
+.text-container2 {
+  position: absolute;
+  display: inline-block;
+  background-color: rgba(70, 72, 82, 0.55);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  left: 15%;
+  top: 15%;
+  width: 30%;
+}
+
+.slides-navigation > a > img {
+  height: 60px;
+}
+
+.portfolio-table {
+  margin: 20px;
+}
+
+.portfolio-table td {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.portfolio-table > td > p {
+  padding: 0;
+  margin: 0;
+}
+
+td img {
+  width: 100%;
+}
